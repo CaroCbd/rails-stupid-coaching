@@ -1,0 +1,16 @@
+<div class="container">
+  <div class="col-6 mx-auto">
+    <h1>The Coach says ...</h1>
+    <blockquote class="blockquote">
+      <p>
+        <%= @question %>
+      </p>
+      <p>
+        <strong class="blockquote-footer">
+          <%= @answer %>
+        </strong>
+      </p>
+    </blockquote>
+    <%= link_to "Ask a new question", home_path %>
+  </div>
+</div>
